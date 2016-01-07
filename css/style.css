@@ -1,0 +1,170 @@
+/*导航栏*/
+.navbar-inverse .navbar-nav > li > a {
+	padding:30px 30px;
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background: #5E5E5E none repeat scroll 0% 0%;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover{
+	background: #5E5E5E none repeat scroll 0% 0%;
+}
+/*首页图片*/
+#headerwrap,#headerwrap1{
+	padding-top: 20px;
+	min-height: 600px;
+	width: 100%;
+}
+
+#headerwrap{
+	background: transparent url("../images/banner2.jpg") no-repeat scroll center center / cover;
+	margin-top: -20px;
+}
+
+#headerwrap1{
+	background: transparent url("../images/banner1.jpg") no-repeat scroll center center / cover;
+}
+
+#bg-img{
+	background: transparent url("../images/home-1366.jpg") no-repeat scroll center center / cover;
+	min-height: 5190px;
+	width: 100%;
+}
+
+/*底部*/
+
+#f{
+	background: #222 none repeat scroll 0% 0%;
+	padding-top: 20px;
+	text-align: center;
+}
+#f p{
+	color: #787D82;
+}
+.footerlink > a{
+	color: #C8CDD2;
+	line-height: 2.0;
+	font-size: 14px;
+}
+
+/*banner*/
+.banner{
+	margin-top: -20px;
+	height:150px;
+	background-color:#3498DB
+}
+
+/*招聘信息页面*/
+#content-left{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #FFF;
+	margin:15px auto;
+	min-height: 750px;
+}
+
+#content-right{
+	background-color: #FFF;
+	margin:15px auto;
+}
+
+.extendContent{
+	line-height: 2;
+	color: #60686B;
+}
+
+.extendContent h1{
+	border-bottom: solid 1px #ECEFF0;
+	font-size: 16px;
+	padding-bottom: 15px;
+	color: #363D40;
+}
+
+.nav-pills.affix{
+	top: 10px; 
+	background-color: #FFF;
+}
+
+.list-group > .list-group-item {
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 1px #ECEFF0;
+	border-top: solid 1px #ECEFF0;
+}
+
+.list-group > .list-group-item:first-child{
+	border-top: none;
+}
+
+/*返回顶部 top，right，bottom，left*/
+#backtotop.affix{
+	position: fixed;
+	right:5px;
+	bottom: 75px;
+	margin:15px;
+}
+
+/*新闻报告*/
+.media-object{
+	margin: 0px 40px 20px 0px;
+}
+
+.media-list{
+	margin:0px 46px 0px 20px;
+}
+
+.page-header > h1{
+	border: none;
+}
+
+/*联系我们*/
+.col-contact{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #FFF;
+	margin:15px auto;
+	/*min-height: 750px;*/
+}
+
+/*媒体查询 - 适配手机浏览器*/
+@media(max-width: 768px){
+	#headerwrap,#headerwrap1{
+		min-height: 200px;
+	}
+
+	#backtotop{
+		display: none;
+	}
+
+	.media-object{
+		display: none;
+	}
+
+	.media-list{
+		margin:0px;
+	}
+
+	#f{
+		display: none;
+	}
+
+	.banner{
+		display: none;
+	}
+}
+
+
+.video{
+	/*margin: 0px auto;*/
+	/*vertical-align: center;*/
+	text-align: center;
+	background-color: black;
+	/*opacity:.5;*/
+}
